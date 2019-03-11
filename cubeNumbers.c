@@ -8,8 +8,10 @@ void main()
     double t,sum;
 
     int i;
+    //Enter starting point of the range
     printf("Enter Opening Range = ");
     scanf("%d", &a);
+    //Enter closing point of the range
     printf("Enter Closing Range = ");
     scanf("%d", &b);
 
@@ -20,15 +22,13 @@ void main()
         for(n = i; n > 0; n = n / 10)
         {
             t = n % 10;
-            sum = sum + pow((double)t, 3) ;
+            sum = sum + pow((double)t, 3);//double is used to typecast here 
 
         }
         if( i == sum)
         {
             printf("%d\n", i);
         }
-
     }
     return 0;
-
 }
