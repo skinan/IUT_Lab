@@ -1,3 +1,6 @@
+/*"Cube Numbers" are those numbers which number's summation of each digit's cube, is equal to the value of that number.
+Example :  371 = (1)cube + (7)cube + (3)cube .*/
+
 #include<stdio.h>
 #include<math.h>
 
